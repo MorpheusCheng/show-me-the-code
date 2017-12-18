@@ -1,4 +1,4 @@
-#!/usr/bin/env pyhton
+#!/usr/bin/env python
 import requests,re,os
 def savePageInfo(url,position,regx):
     html=requests.get(url).text
